@@ -1,0 +1,61 @@
+# Archivos compilados de Java #
+*.class
+
+# Paquetes #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven #
+target/
+!target/*.war
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle #
+.gradle/
+build/
+
+# Archivos temporales #
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archivos del entorno de desarrollo #
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Sistema de archivos #
+.DS_Store
+Thumbs.db
+
+# Directorios de logs #
+logs/
+*.log
+*.tlog
+
+# Otros #
+*.lock
+/captures/
+
+# Archivos específicos de los servidores de aplicaciones #
+/WEB-INF/classes/
+/WEB-INF/lib/
+/work/
